@@ -1,0 +1,25 @@
+<mat-toolbar color="primary" class="toolbar">
+  <div *ngIf="getCurrentPath() !== '/'">
+    <button mat-icon-button (click)="navigateBack()">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+  </div>
+  <div *ngIf="getCurrentPath() === '/'">
+    <mat-icon class="icon-holder">bug_report</mat-icon>
+  </div>
+  <h1 class="app-name">BWF</h1>
+  <span class="spacer"></span>
+  <button mat-button color="secondary" (click)="navigateTo(homeRoutes.PROGRESS)">
+    <mat-icon>data_usage</mat-icon> Progress
+  </button>
+  <button mat-button color="secondary" (click)="navigateTo(homeRoutes.PROGRESS)">
+    <mat-icon>info</mat-icon> Help
+  </button>
+  <button mat-icon-button color="secondary" (click)="navigateTo(homeRoutes.PROGRESS)">
+    <mat-icon>settings</mat-icon>
+  </button>
+</mat-toolbar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
