@@ -81,9 +81,8 @@ E.g Current workout
 These perform a single task and are used in conjunction with eachother to perform the desired page functionality.
 These should be dynamic and data driven. There should be no static hard-coding.
 E.g Workout timer
-- Functionality
-    - Display countdown information
-        - Countdown to zero
-        - Display the remaining time
-        - Display a progress indicator
-        - Emit countdown events
+- Display countdown information
+    - Countdown to zero
+    - Display the remaining time
+    - Display a progress indicator
+    - Emit countdown events
