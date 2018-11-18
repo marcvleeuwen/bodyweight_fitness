@@ -11,7 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material';
 
-import {HomeModule} from './pages/home/home.module'
+import {HomeModule} from './sections/home/home.module'
 
 @NgModule({
   declarations: [
