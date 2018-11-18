@@ -20,7 +20,6 @@ This is an opensource project and all contributions are welcome.
     7.  Jokester's Bodyweight PPL
 3. Diet
     1. [faq - Diet detials](https://www.reddit.com/r/Fitness/wiki/faq#wiki_diet_details)
-4. 
 
 ## Tech stack
 1.  Angular
@@ -32,32 +31,32 @@ This is an opensource project and all contributions are welcome.
     2.  MySQL - data
 
 ## TODO
-- [] User authentication
-    - [] Firebase social login
-        - [] Google
-        - [] Facebook
-        - [] Email
-    - [] Logout
-- [] Track Workouts
-    - [] Workout history
-    - [] Current progression
-- [] Track current workout
-    - [] Reps per set
-    - [] Active/rest timer
-- [] Modify workout preferences
-    - [] Progression
-    - [] Rest time
-    - [] Change routine
-- [] Sections
-    - [] Routines
-        - [] Beginner
-        - [] Intermediate
-    - [] Help
-    - [] Settings
-        - [] User details
-        - [] Workout preferences
-        - [] Reset workout details
-        - [] Logout
+- [ ] User authentication
+    - [ ] Firebase social login
+        - [ ] Google
+        - [ ] Facebook
+        - [ ] Email
+    - [ ] Logout
+- [ ] Track Workouts
+    - [ ] Workout history
+    - [ ] Current progression
+- [ ] Track current workout
+    - [ ] Reps per set
+    - [ ] Active/rest timer
+- [ ] Modify workout preferences
+    - [ ] Progression
+    - [ ] Rest time
+    - [ ] Change routine
+- [ ] Sections
+    - [ ] Routines
+        - [ ] Beginner
+        - [ ] Intermediate
+    - [ ] Help
+    - [ ] Settings
+        - [ ] User details
+        - [ ] Workout preferences
+        - [ ] Reset workout details
+        - [ ] Logout
 
 ## File structure
 ###  Section
